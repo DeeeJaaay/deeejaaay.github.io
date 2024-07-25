@@ -1,7 +1,46 @@
 const restaurants = [
-    "Restaurant A",
-    "Restaurant B",
-    "Restaurant C",
+"Stensätra Pizzeria",
+"Kebab House",
+"Royal Thai",
+"ESA",
+"Österns Pärla",
+"Sibylla",
+"McDonalds",
+"Verona",
+"Aga Grillen",
+"Piccolo Mondo",
+"Amorinen",
+"Sorrento",
+"Hackörven",
+"Subway",
+"Aqua",
+"Bolaget",
+"Jernet",
+"Fredrik på Hörnet",
+"Mias Grill",
+"Tzatziki",
+"Kanalkioksen",
+"Järnverkskoisken",
+"Aldo's",
+"Storsjömässen",
+"Trebo",
+"Asian Takeaway",
+"Jensas",
+"Matkällan",
+"Torggrillen",
+"Mjölkbaren",
+"Maharane",
+"Grillhuset",
+"LaFiorita(Palaia)",
+"Oden",
+"Barrsätra Pizzeria",
+"Annexet Grillkök",
+"Sushi Corner",
+"Sandviken Sushi",
+"Viking Pizzeria",
+"Högbo Köket",
+"Heat Express",
+"American Pizza Place"
     // Add more restaurant names here
 ];
 
@@ -13,3 +52,4 @@ pickButton.addEventListener("click", () => {
     const randomRestaurant = restaurants[randomIndex];
     resultElement.textContent = `You should try ${randomRestaurant}!`;
 });
+
