@@ -50,6 +50,5 @@ const resultElement = document.getElementById("result");
 pickButton.addEventListener("click", () => {
     const randomIndex = Math.floor(Math.random() * restaurants.length);
     const randomRestaurant = restaurants[randomIndex];
-    resultElement.textContent = `Du borde prova ${randomRestaurant}!`;
+    resultElement.textContent = `Ni borde prova ${randomRestaurant}!`;
 });
-
