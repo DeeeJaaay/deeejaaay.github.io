@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (themeStylesheet.getAttribute('href') === 'styles.css') {
             themeStylesheet.setAttribute('href', 'styles2.css');
             restaurantIcon.outerHTML = '<img id="restaurantIcon" src="steamyburger.gif" alt="Restaurant Icon" style="width:48px;height:48px;">';
-            gif.outerHTML = <img src="babydanc.gif">
+            gif.outerHTML = <img src="babydanc.gif">;
         } else {
             themeStylesheet.setAttribute('href', 'styles.css');
             restaurantIcon.outerHTML = '<i id="restaurantIcon" class="material-icons" style="font-size:48px;color:#007B66;">restaurant</i>';
