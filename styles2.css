@@ -1,1 +1,60 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #00FF00; /* Bright green background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('stars.gif'); /* Add a tiled background image */
+    background-repeat: repeat;
+}
+
+h1 {
+    color: #FF00FF; /* Bright magenta */
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px #0000FF; /* Blue shadow */
+    border: 2px solid #FFFF00; /* Yellow border */
+    padding: 10px;
+    background-color: #0000FF; /* Blue background */
+}
+
+h2 {
+    color: #00FFFF; /* Cyan */
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 2px #FF0000; /* Red shadow */
+    border: 2px dashed #FF00FF; /* Magenta dashed border */
+    padding: 5px;
+    background-color: #FF0000; /* Red background */
+}
+
+button {
+    background-color: #FF0000; /* Red background */
+    color: #FFFF00; /* Yellow text */
+    border: 2px solid #0000FF; /* Blue border */
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 0; /* No border radius */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+    background-color: #00FF00; /* Green background on hover */
+    color: #0000FF; /* Blue text on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #FFFFFF; /* White text */
+    background-color: #000000; /* Black background */
+    padding: 10px;
+    border: 2px solid #FF00FF; /* Magenta border */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
 
