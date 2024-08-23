@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             themeStylesheet.setAttribute('href', 'styles.css');
             restaurantIcon.outerHTML = '<i id="restaurantIcon" class="material-icons" style="font-size:48px;color:#007B66;">restaurant</i>';
+            gif.outerHTML = '';
         }
     });
 });
