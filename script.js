@@ -16,7 +16,6 @@ const restaurants = [
 "Aqua",
 "Bolaget",
 "Jernet",
-"Fredrik på Hörnet",
 "Mias Grill",
 "Tzatziki",
 "Kanalkioksen",
