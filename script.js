@@ -52,3 +52,12 @@ pickButton.addEventListener("click", () => {
     const randomRestaurant = restaurants[randomIndex];
     resultElement.textContent = `Ni borde prova ${randomRestaurant}!`;
 });
+
+document.getElementById('switchButton').addEventListener('click', function() {
+    var themeStylesheet = document.getElementById('themeStylesheet');
+    if (themeStylesheet.getAttribute('href') === 'styles1.css') {
+        themeStylesheet.setAttribute('href', 'styles2.css');
+    } else {
+        themeStylesheet.setAttribute('href', 'styles1.css');
+    }
+});
